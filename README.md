@@ -1,4 +1,4 @@
-whoami
+myip
 ======
 
 Simple HTTP docker service that prints client ip
@@ -7,3 +7,4 @@ Simple HTTP docker service that prints client ip
     
     $ curl $(hostname --all-ip-addresses | awk '{print $1}'):8000
     
+https://hub.docker.com/r/gadzorg/myip/
